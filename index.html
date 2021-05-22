@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deezer</title>
+
+    <link rel="stylesheet" href="style/style.css"> 
+</head>
+<body>
+
+    <main>
+        <section id="container_menu">
+            <div id="menu">
+                <img src="img/imgs/deezer-white-logo-no-bg.png" alt="" id="logo_deezer_menu">
+        
+                <nav>
+                <ul>
+                    <li class="prioridades">
+                        <div id="selecionado"></div>
+                        <a href="">
+                            <img src="img/icons/music.png" alt="">
+                            <span id="primeiro">Música</span>
+                        </a>
+                    </li>
+                    <li class="prioridades">
+                            <a href="">
+                                <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.25 12.0054C1.58152 12.0054 1.89946 12.1027 2.13388 12.2759C2.3683 12.449 2.5 12.6839 2.5 12.9289V14.7758C2.5 16.7352 3.55357 18.6144 5.42893 19.9999C7.3043 21.3854 9.84783 22.1638 12.5 22.1638C15.1522 22.1638 17.6957 21.3854 19.5711 19.9999C21.4464 18.6144 22.5 16.7352 22.5 14.7758V12.9289C22.5 12.6839 22.6317 12.449 22.8661 12.2759C23.1005 12.1027 23.4185 12.0054 23.75 12.0054C24.0815 12.0054 24.3995 12.1027 24.6339 12.2759C24.8683 12.449 25 12.6839 25 12.9289V14.7758C25 17.0652 23.849 19.273 21.7703 20.9709C19.6916 22.6688 16.8333 23.7356 13.75 23.9646V27.7047H21.25C21.5815 27.7047 21.8995 27.802 22.1339 27.9752C22.3683 28.1484 22.5 28.3833 22.5 28.6282C22.5 28.8731 22.3683 29.108 22.1339 29.2812C21.8995 29.4544 21.5815 29.5517 21.25 29.5517H3.75C3.41848 29.5517 3.10054 29.4544 2.86612 29.2812C2.6317 29.108 2.5 28.8731 2.5 28.6282C2.5 28.3833 2.6317 28.1484 2.86612 27.9752C3.10054 27.802 3.41848 27.7047 3.75 27.7047H11.25V23.9646C8.16671 23.7356 5.30844 22.6688 3.2297 20.9709C1.15096 19.273 -3.89292e-05 17.0652 9.87516e-10 14.7758V12.9289C9.87516e-10 12.6839 0.131696 12.449 0.366117 12.2759C0.600537 12.1027 0.918479 12.0054 1.25 12.0054Z" fill="#FFF"/>
+                                    <path d="M17.5 14.7759C17.5 15.7556 16.9732 16.6951 16.0355 17.3879C15.0978 18.0806 13.8261 18.4698 12.5 18.4698C11.1739 18.4698 9.90214 18.0806 8.96446 17.3879C8.02678 16.6951 7.5 15.7556 7.5 14.7759V5.54095C7.5 4.56125 8.02678 3.62167 8.96446 2.92892C9.90214 2.23617 11.1739 1.84698 12.5 1.84698C13.8261 1.84698 15.0978 2.23617 16.0355 2.92892C16.9732 3.62167 17.5 4.56125 17.5 5.54095V14.7759ZM12.5 0C10.5109 0 8.60322 0.583777 7.1967 1.62291C5.79018 2.66204 5 4.0714 5 5.54095V14.7759C5 16.2454 5.79018 17.6548 7.1967 18.6939C8.60322 19.733 10.5109 20.3168 12.5 20.3168C14.4891 20.3168 16.3968 19.733 17.8033 18.6939C19.2098 17.6548 20 16.2454 20 14.7759V5.54095C20 4.0714 19.2098 2.66204 17.8033 1.62291C16.3968 0.583777 14.4891 0 12.5 0V0Z" fill="#FFF"/>
+                                </svg>
+                                <span>Podcasts</span>
+                            </a>
+                        </li>
+                        <li class="prioridades">
+                            <a href="">
+                                <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.5" y="1.47012" width="10.1111" height="6.38793" stroke="#FFF" fill="none"/>
+                                    <rect x="14.3889" y="1.47012" width="10.1111" height="6.38793" stroke="#FFF" fill="none"/>
+                                    <rect x="14.3889" y="11.8132" width="10.1111" height="6.38793" stroke="#FFF" fill="none"/>
+                                    <rect x="0.5" y="11.8132" width="10.1111" height="6.38793" stroke="#FFF" fill="none"/>
+                                </svg>
+                                <span>Explorar</span>
+                            </a>
+                        </li>
+                        <li class="prioridades">
+                            <a href="">
+                                <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="FFF" id="heart">
+                                    <path d="M24.3952 4.18185C24.0073 3.36351 23.448 2.62194 22.7486 1.99865C22.0486 1.3735 21.2234 0.876703 20.3177 0.535273C19.3786 0.179825 18.3713 -0.00211408 17.3544 1.85332e-05C15.9277 1.85332e-05 14.5358 0.355976 13.3262 1.02834C13.0368 1.18918 12.7619 1.36584 12.5014 1.55832C12.241 1.36584 11.9661 1.18918 11.6767 1.02834C10.4671 0.355976 9.07511 1.85332e-05 7.64844 1.85332e-05C6.62113 1.85332e-05 5.62564 0.179316 4.68514 0.535273C3.77647 0.878046 2.95751 1.37111 2.25431 1.99865C1.55399 2.62124 0.994552 3.36299 0.607708 4.18185C0.205463 5.03352 0 5.93791 0 6.86867C0 7.7467 0.196782 8.66164 0.587452 9.5924C0.914457 10.3702 1.38326 11.1771 1.98229 11.9918C2.93147 13.2812 4.2366 14.6259 5.85715 15.9891C8.54264 18.2488 11.2021 19.8097 11.315 19.873L12.0008 20.2738C12.3046 20.4504 12.6953 20.4504 12.9992 20.2738L13.685 19.873C13.7979 19.8071 16.4544 18.2488 19.1428 15.9891C20.7634 14.6259 22.0685 13.2812 23.0177 11.9918C23.6167 11.1771 24.0884 10.3702 24.4125 9.5924C24.8032 8.66164 25 7.7467 25 6.86867C25.0029 5.93791 24.7974 5.03352 24.3952 4.18185V4.18185Z" fill="#191922"/>
+                                </svg>
+                                    
+                                <span>Favoritos</span>
+                            </a>
+                        </li>
+            
+                        <li class="outros">
+                            <a href="">
+                                Mais Queridas 
+                            </a>
+                        </li>
+                        <li class="outros">
+                            <a href="">
+                                Downloads 
+                            </a> 
+                        </li>
+                        <li class="outros">
+                            <a href="">
+                                Playlists 
+                            </a> 
+                        </li>
+                        <li class="outros">
+                            <a href="">
+                                Álbuns 
+                            </a> 
+                        </li>
+                        <li class="outros">
+                            <a href="">
+                                Artistas
+                            </a> 
+                        </li>
+                        <li class="outros">
+                            <a href="">
+                                Podcasts 
+                            </a> 
+                        </li>
+                </ul>
+                </nav>
+            </div>
+                
+        </section>
+    
+        <section id="layout_seções">
+                    <header id="form">
+                        <div id="container_form">
+                            <form action="">
+                                <img src="img/icons/ei_search.png" alt="">
+                                <input type="text" placeholder="Buscar">
+                            </form>
+                        </div>
+            
+                        <div id="container_icones_user">
+                            <img src="img/icons/mdi_bell.png" alt="">
+                            <div></div>
+                        </div>
+                    </header>
+        
+                    <section class="seção">
+                        <header class="cabeçalhos">
+                            <h2>Feito para você</h2>
+                            <div class="setas">
+                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.34077 19.6508C8.12731 19.6516 7.9164 19.6053 7.72354 19.5154C7.53068 19.4256 7.36076 19.2944 7.22628 19.1315L0.325041 10.7105C0.114887 10.4594 0 10.1444 0 9.81928C0 9.4942 0.114887 9.17919 0.325041 8.92806L7.46918 0.50702C7.71171 0.220401 8.06022 0.040156 8.43804 0.00593894C8.81586 -0.0282782 9.19204 0.0863348 9.48383 0.324564C9.77562 0.562793 9.95912 0.905124 9.99395 1.27625C10.0288 1.64737 9.91211 2.01689 9.66958 2.30351L3.28272 9.8263L9.45526 17.3491C9.62998 17.5551 9.74096 17.806 9.77508 18.072C9.8092 18.338 9.76503 18.6081 9.64779 18.8502C9.53054 19.0924 9.34514 19.2965 9.11351 19.4384C8.88188 19.5802 8.61372 19.654 8.34077 19.6508Z" fill="#59595B"/>
+                                </svg>
+                                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.13465 20.6484C2.80366 20.649 2.4829 20.5351 2.22804 20.3263C2.0846 20.2087 1.96603 20.0643 1.87912 19.9014C1.79221 19.7384 1.73867 19.5601 1.72156 19.3767C1.70445 19.1932 1.72412 19.0083 1.77943 18.8324C1.83474 18.6565 1.9246 18.4931 2.04388 18.3515L8.39017 10.8447L2.27054 3.32382C2.15287 3.18056 2.06499 3.01572 2.01197 2.83878C1.95894 2.66184 1.94181 2.47628 1.96156 2.29277C1.9813 2.10926 2.03754 1.93142 2.12703 1.76946C2.21652 1.60751 2.3375 1.46464 2.48302 1.34907C2.62959 1.22157 2.80123 1.12539 2.98718 1.06659C3.17312 1.00778 3.36935 0.987607 3.56356 1.00733C3.75776 1.02706 3.94574 1.08626 4.11571 1.18122C4.28567 1.27618 4.43395 1.40484 4.55123 1.55915L11.3933 9.96234C11.6017 10.2129 11.7156 10.5273 11.7156 10.8517C11.7156 11.1761 11.6017 11.4904 11.3933 11.741L4.31041 20.1442C4.16831 20.3137 3.98779 20.4477 3.7835 20.5353C3.57922 20.6229 3.35692 20.6616 3.13465 20.6484Z" fill="white"/>
+                                    <path d="M1.91108 20.713L1.91117 20.7131C2.25215 20.9924 2.67942 21.1457 3.12026 21.1484C3.41492 21.1636 3.70936 21.1111 3.98056 20.9948C4.25629 20.8766 4.50052 20.6955 4.69317 20.4659C4.6933 20.4658 4.69343 20.4656 4.69356 20.4655L11.7756 12.0633L11.7756 12.0633L11.7778 12.0607C12.0604 11.7207 12.2156 11.2934 12.2156 10.8517C12.2156 10.4108 12.0611 9.98442 11.7796 9.64482L4.94384 1.24944C4.7856 1.04328 4.58671 0.871622 4.35958 0.744724C4.12984 0.616371 3.87604 0.536501 3.61408 0.509893C3.35214 0.483286 3.0874 0.510481 2.83641 0.589861C2.58896 0.668118 2.35991 0.795507 2.16332 0.964509C1.97022 1.11972 1.80915 1.31092 1.6894 1.52764C1.56783 1.74764 1.49131 1.98949 1.46443 2.23928C1.43755 2.48907 1.46088 2.74161 1.53301 2.98231C1.60502 3.22261 1.72418 3.44615 1.88339 3.64023C1.88365 3.64054 1.88391 3.64086 1.88417 3.64118L7.74059 10.8386L1.66205 18.0287L1.66156 18.0293C1.49981 18.2212 1.37768 18.4431 1.30245 18.6824C1.22722 18.9217 1.20043 19.1734 1.22372 19.4231C1.247 19.6728 1.31987 19.9153 1.43795 20.1367C1.55601 20.358 1.71688 20.5538 1.91108 20.713Z" stroke="white" stroke-opacity="0.5"/>
+                                </svg>
+                            </div>
+                        </header>
+        
+                        <div class="container_caixas" id="container_1">
+                            <div class="container_informações">
+                                <div class="container_imagens">
+                                    <h3>Flow</h3>
+                                    <a href="">
+                                        <img src="img/icons/play.png" alt="">
+                                    </a>
+                                </div>
+                                <p>Um mix infinito de favoritos e faixas novas</p>
+                            </div>
+                            <div class="container_informações">
+                                <div class="container_imagens">
+                                    <h3>Relaxamento do Domingo</h3>
+                                    <a href="">
+                                        <img src="img/icons/play.png" alt="">
+                                    </a>
+                                </div>
+                                <p>Destacando John Legend, Brighton, Freya Ridings, Shannon Purser</p>
+                            </div>
+                            <div class="container_informações">
+                                <div class="container_imagens">
+                                    <a href="">
+                                        <img src="img/icons/play.png" alt="">
+                                    </a>   
+                                </div>
+                                <p>Destacando James Young, AURORA, Chord Overtsreet, Lewis Capaldi </p>
+                            </div>
+                            <div class="container_informações">
+                                <div class="container_imagens">
+                                    <a href="">
+                                        <img src="img/icons/play.png" alt="">
+                                    </a>
+                                </div>
+                                <p>Destacando Brooks, Don Diablo, Martin Garrix, Loote</p>
+                            </div>
+                            <div class="container_informações">
+                                <div class="container_imagens">
+                                    <a href="">
+                                        <img src="img/icons/play.png" alt="">
+                                    </a>
+                                </div>
+                                <p>Destacando Fort Minor, Link Park, Dead By Sunrise, Mike Shinoda</p>
+                            </div>
+                        </div>
+                        
+                    </section>
+        
+                    <div id="container_recomendações">
+                        <p>Melhore suas recomendações, selecionando seus artistas favoritos.</p>
+                        <a href="">
+                            Adicione artistas
+                        </a>
+                    </div>
+        
+                    <section class="seção">
+                        <header class="cabeçalhos">
+                            <h2>Playlists que você vai amar</h2>
+                            <div class="setas">
+                                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.34077 19.6508C8.12731 19.6516 7.9164 19.6053 7.72354 19.5154C7.53068 19.4256 7.36076 19.2944 7.22628 19.1315L0.325041 10.7105C0.114887 10.4594 0 10.1444 0 9.81928C0 9.4942 0.114887 9.17919 0.325041 8.92806L7.46918 0.50702C7.71171 0.220401 8.06022 0.040156 8.43804 0.00593894C8.81586 -0.0282782 9.19204 0.0863348 9.48383 0.324564C9.77562 0.562793 9.95912 0.905124 9.99395 1.27625C10.0288 1.64737 9.91211 2.01689 9.66958 2.30351L3.28272 9.8263L9.45526 17.3491C9.62998 17.5551 9.74096 17.806 9.77508 18.072C9.8092 18.338 9.76503 18.6081 9.64779 18.8502C9.53054 19.0924 9.34514 19.2965 9.11351 19.4384C8.88188 19.5802 8.61372 19.654 8.34077 19.6508Z" fill="#59595B"/>
+                                </svg>
+                                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.13465 20.6484C2.80366 20.649 2.4829 20.5351 2.22804 20.3263C2.0846 20.2087 1.96603 20.0643 1.87912 19.9014C1.79221 19.7384 1.73867 19.5601 1.72156 19.3767C1.70445 19.1932 1.72412 19.0083 1.77943 18.8324C1.83474 18.6565 1.9246 18.4931 2.04388 18.3515L8.39017 10.8447L2.27054 3.32382C2.15287 3.18056 2.06499 3.01572 2.01197 2.83878C1.95894 2.66184 1.94181 2.47628 1.96156 2.29277C1.9813 2.10926 2.03754 1.93142 2.12703 1.76946C2.21652 1.60751 2.3375 1.46464 2.48302 1.34907C2.62959 1.22157 2.80123 1.12539 2.98718 1.06659C3.17312 1.00778 3.36935 0.987607 3.56356 1.00733C3.75776 1.02706 3.94574 1.08626 4.11571 1.18122C4.28567 1.27618 4.43395 1.40484 4.55123 1.55915L11.3933 9.96234C11.6017 10.2129 11.7156 10.5273 11.7156 10.8517C11.7156 11.1761 11.6017 11.4904 11.3933 11.741L4.31041 20.1442C4.16831 20.3137 3.98779 20.4477 3.7835 20.5353C3.57922 20.6229 3.35692 20.6616 3.13465 20.6484Z" fill="white"/>
+                                    <path d="M1.91108 20.713L1.91117 20.7131C2.25215 20.9924 2.67942 21.1457 3.12026 21.1484C3.41492 21.1636 3.70936 21.1111 3.98056 20.9948C4.25629 20.8766 4.50052 20.6955 4.69317 20.4659C4.6933 20.4658 4.69343 20.4656 4.69356 20.4655L11.7756 12.0633L11.7756 12.0633L11.7778 12.0607C12.0604 11.7207 12.2156 11.2934 12.2156 10.8517C12.2156 10.4108 12.0611 9.98442 11.7796 9.64482L4.94384 1.24944C4.7856 1.04328 4.58671 0.871622 4.35958 0.744724C4.12984 0.616371 3.87604 0.536501 3.61408 0.509893C3.35214 0.483286 3.0874 0.510481 2.83641 0.589861C2.58896 0.668118 2.35991 0.795507 2.16332 0.964509C1.97022 1.11972 1.80915 1.31092 1.6894 1.52764C1.56783 1.74764 1.49131 1.98949 1.46443 2.23928C1.43755 2.48907 1.46088 2.74161 1.53301 2.98231C1.60502 3.22261 1.72418 3.44615 1.88339 3.64023C1.88365 3.64054 1.88391 3.64086 1.88417 3.64118L7.74059 10.8386L1.66205 18.0287L1.66156 18.0293C1.49981 18.2212 1.37768 18.4431 1.30245 18.6824C1.22722 18.9217 1.20043 19.1734 1.22372 19.4231C1.247 19.6728 1.31987 19.9153 1.43795 20.1367C1.55601 20.358 1.71688 20.5538 1.91108 20.713Z" stroke="white" stroke-opacity="0.5"/>
+                                </svg>
+                            </div>
+                        </header>
+        
+                        <div class="container_caixas" id="container_2">
+                            <div class="container_informações">
+                                <div class="info_2">
+                                    <h3>happy hits</h3>
+                                    <div class="icones">
+                                        <div class="icones_grupo">
+                                            <a href="">
+                                                <img src="img/icons/play.png" alt="">
+                                            </a>
+                                                
+                                            <a href="">
+                                                <img src="img/icons/heart_last.png" alt="">
+                                            </a>
+            
+                                            <a href="">
+                                                <img src="img/icons/more.png" alt="">
+                                            </a>
+                                        </div>
+                                        
+                                        <img src="img/imgs/logo_deezer 1.png" alt="" class="deezer">
+                                    </div>
+                                </div>
+                                <p>Happy Hits</p>
+                                <p>70 faixas - 249.070 fãs</p>  
+                            </div>
+        
+                            <div class="container_informações">
+                                <div class="info_2">
+                                    <h3>hot pop</h3>
+                                    <div class="icones">
+                                        <div class="icones_grupo">
+                                            <a href="">
+                                                <img src="img/icons/play.png" alt="">
+                                            </a>
+                                                
+                                            <a href="">
+                                                <img src="img/icons/heart_last.png" alt="">
+                                            </a>
+            
+                                            <a href="">
+                                                <img src="img/icons/more.png" alt="">
+                                            </a>
+                                        </div>
+                                        
+                                        <img src="img/imgs/logo_deezer 1.png" alt="" class="deezer">
+                                    </div>
+                                </div>
+                                <p>Hot Pop</p>
+                                <p>51 faixas - 690.916 fãs </p>
+                            </div>
+        
+                            <div class="container_informações">
+                                <div class="info_2">
+                                    <h3>young & free</h3>
+                                    <div class="icones">
+                                        <div class="icones_grupo">
+                                            <a href="">
+                                                <img src="img/icons/play.png" alt="">
+                                            </a>
+                                                
+                                            <a href="">
+                                                <img src="img/icons/heart_last.png" alt="">
+                                            </a>
+            
+                                            <a href="">
+                                                <img src="img/icons/more.png" alt="">
+                                            </a>
+                                        </div>
+                                        
+                                        <img src="img/imgs/logo_deezer 1.png" alt="" class="deezer">
+                                    </div>
+                                </div>
+                                <p>Young & Free</p>
+                                <p>50 faixas - 77.904 fãs</p>
+                            </div>
+        
+                            <div class="container_informações">
+                                <div class="info_2">
+                                    <h3>pop rewind</h3>
+                                    <div class="icones">
+                                        <div class="icones_grupo">
+                                            <a href="">
+                                                <img src="img/icons/play.png" alt="">
+                                            </a>
+                                                
+                                            <a href="">
+                                                <img src="img/icons/heart_last.png" alt="">
+                                            </a>
+            
+                                            <a href="">
+                                                <img src="img/icons/more.png" alt="">
+                                            </a>
+                                        </div>
+                                        
+                                        <img src="img/imgs/logo_deezer 1.png" alt="" class="deezer">
+                                    </div>
+                                </div>
+                                <p>Pop Rewind</p>
+                                <p>50 faixas - 78.203 fãs</p>
+                            </div>
+        
+                            <div class="container_informações">
+                                <div class="info_2">
+                                    <h3>feel good pop</h3>
+                                    <div class="icones">
+                                        <div class="icones_grupo">
+                                            <a href="">
+                                                <img src="img/icons/play.png" alt="">
+                                            </a>
+                                                
+                                            <a href="">
+                                                <img src="img/icons/heart_last.png" alt="">
+                                            </a>
+            
+                                            <a href="">
+                                                <img src="img/icons/more.png" alt="">
+                                            </a>
+                                        </div>
+                                        
+                                        <img src="img/imgs/logo_deezer 1.png" alt="" class="deezer">
+                                    </div>
+                                </div>
+                                <p>Feel Good Pop</p>
+                                <p>50 faixas - 182.691 fãs</p>
+                            </div>
+                        </div>
+                    </section>
+        </section>
+        
+
+        <section id="musica">
+            <div id="controles">
+                <div>
+                    <img src="img/icons/voltar.png" alt="">
+                </div>
+                
+                <div>
+                    <img src="img/icons/pause.png" alt="">
+                </div>
+                
+                <div>
+                    <img src="img/icons/avançar.png" alt="">
+                </div>
+            </div>
+    
+            <div id="container_msc">
+                <div id="info_cantor">
+                    <a href="">Don´t Let me Down (feat. Daya) (Illenium Remix) - The Chainsmokers, Daya</a>
+                    <div id="icones_cantor">
+                        <div>   
+                            <img src="img/icons/si-glyph_microphone-1.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <img src="img/icons/ion_add-outline.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <img src="img/icons/ant-design_heart-filled.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div id="barra_progresso">
+                    <p>00:43</p>
+                    <div id="barra"></div>
+                    <p>03:38</p>
+                </div>
+            </div>
+    
+            <div id="container_proximo">
+                <div id="config">
+                    <div>
+                        <img src="img/icons/repetir 1.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <img src="img/icons/aleatorio 1.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <img src="img/icons/icomoon-free_volume-high.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <img src="img/icons/bytesize_settings.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div id="barra_vertical"></div>
+    
+                <div id="espera">
+                    <img src="img/imgs/ghost 1.jpg" alt="">
+                    <p>Fila de espera</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+</body>
+</html>
