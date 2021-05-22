@@ -18,8 +18,8 @@
     Projeto feito com a intenção de aprimoramento das skils com as tecnoligias utilizadas.
 </h4>
 <br>
-<p>
-    <img src = "gifs/parte1_deezer.gif">
+<p align="center">
+    <img src = "gifs/parte1_deezer.gif" width="1000px">
 </p>
 
 #### 🚀 Tecnologias
