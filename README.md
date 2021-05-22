@@ -19,7 +19,7 @@
 </h4>
 <br>
 <p align="center">
-    <img src = "gifs/parte1_deezer.gif" width="1000px">
+    <img src = "https://github.com/tamirysnogueira/Deezer/blob/master/gifs/Parte1_deezer.gif" width="1000px">
 </p>
 
 #### 🚀 Tecnologias
