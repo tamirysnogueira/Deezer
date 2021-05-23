@@ -15,7 +15,7 @@
 </p>
 
 <h4 align="center">
-    Projeto feito com a intenção de aprimoramento das skils com as tecnoligias utilizadas.
+    Projeto feito com a intenção de aprimoramento das skills com as tecnologias utilizadas.
 </h4>
 <br>
 <p align="center">
@@ -29,8 +29,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-### 📝 Licensa
-O projeto contém a licensa MIT. Para mais informações acesse [LICENSE](https://github.com/tamirysnogueira/Deezer/blob/master/LICENSE).
+### 📝 Licença
+O projeto contém a licença MIT. Para mais informações acesse [LICENSE](https://github.com/tamirysnogueira/Deezer/blob/master/LICENSE).
 
 <br>
 
